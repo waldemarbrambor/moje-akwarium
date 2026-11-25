@@ -1,0 +1,8 @@
+MOJE AKWARIUM WWW 0.3
+
+Test lokalny: otwórz index.html w Chrome lub Edge na komputerze.
+Docelowo: umieść wszystkie pliki (index.html, manifest.webmanifest, sw.js, oba PNG) na zatwierdzonym statycznym hostingu HTTPS w jednym katalogu. Można np. skorzystać z GitHub Pages, jeśli zasady organizacji na to pozwalają. Kod jest statyczny i nie przesyła wpisów ani zdjęć na serwer. Nie umieszczaj kopii JSON na publicznym hostingu.
+Na telefonie otwórz adres HTTPS w dozwolonej przeglądarce. Nie zmieniaj zabezpieczeń urządzenia. Opcja Dodaj do ekranu głównego jest dobrowolna i może być zablokowana.
+Po pierwszym poprawnym załadowaniu przez HTTPS service worker umożliwia otwarcie bez internetu (jeśli przeglądarka pozwala na cache).
+Dane pozostają w pamięci konkretnej przeglądarki i adresu; nie ma synchronizacji, automatycznego backupu ani AI analizującego zdjęcia. Eksportuj kopię JSON regularnie. Zdjęcia są kompresowane; pamięć lokalna ma ograniczoną pojemność. Gdy zapis się nie powiedzie, wyeksportuj dane przed zamknięciem.
+Powiadomienia: w ustawieniach wyeksportuj ICS do dozwolonego kalendarza, albo użyj istniejących przypomnień ChatGPT. Aplikacja WWW sama nie wysyła powiadomień po zamknięciu.
