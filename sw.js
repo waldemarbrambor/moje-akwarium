@@ -1,4 +1,4 @@
-const CACHE='moje-akwarium-v06', INBOX='aquarium-ai-inbox-v1';
+const CACHE='moje-akwarium-v07', INBOX='aquarium-ai-inbox-v1';
 const FILES=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
 const scope=new URL(self.registration.scope);
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES.map(x=>new Request(x,{cache:'reload'})))).then(()=>self.skipWaiting())));
